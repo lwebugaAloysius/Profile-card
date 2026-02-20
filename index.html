@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+    <title>Profile Card</title>
+  </head>
+  <body>
+    <main class="main-profile-card-container wrapper">
+      <!-- <section class="profile-card-img-container"> -->
+      <picture>
+        <source
+          media="(min-width:700px)"
+          srcset="assets/images/img3.jpg"
+          class="user-img"
+        />
+        <img src="assets/images/main-profile-avator.jpg" class="user-img" />
+      </picture>
+      <!-- </section> -->
+      <section class="profile-card-content-container">
+        <div class="user-name-role-container">
+          <h2 class="user-name">Lwebuga Aloyzious</h2>
+          <h3 class="user-role role-font-size">Website Developer</h3>
+        </div>
+        <div class="cta-container">
+          <button class="cta-btn gallary-btn btn-secondary button-font-size">
+            View Gallery
+          </button>
+          <a href="mailto:aloysiuslwebuga@gmail.com" class="email-btn"
+            ><button class="cta-btn contact-btn btn-primary button-font-size">
+              Get in Touch
+            </button></a
+          >
+        </div>
+        <p class="user-paragraph body-font-size">
+          I'm a web developer passionate about building responsive ,
+          user-friendly , and visually engaing digital experiences. I enjoy
+          transforming ideas into functional websites that not only look great
+          but also deliver seamless performance across devices. My focus is on
+          creating clean ,efficent solutions that enhance useability and bring
+          concepts to life on the web
+        </p>
+        <div class="socials-container">
+          <a
+            href="https://www.instagram.com/lwebuga_aloyzious?igsh=eW42dHpzZmZqbmpm"
+            target="_blank"
+            ><img src="assets/images/instagram.svg" class="socials-icon"
+          /></a>
+          <a href="https://github.com/lwebugaAloysius" target="_blank"
+            ><img src="assets/images/github.svg" class="socials-icon"
+          /></a>
+          <a href="#"
+            ><img src="assets/images/linkedin.svg" class="socials-icon"
+          /></a>
+        </div>
+      </section>
+      <dialog class="gallery-dialog">
+        <div class="gallery-container">
+          <button class="modal-close-btn"></button>
+          <div class="modal-img-gallary-container">
+            <div class="img-container img1"></div>
+            <div class="img-container img2"></div>
+            <div class="img-container img3"></div>
+            <div class="img-container img4"></div>
+          </div>
+        </div>
+      </dialog>
+    </main>
+  </body>
+</html>
